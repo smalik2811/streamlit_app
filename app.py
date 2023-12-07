@@ -23,5 +23,5 @@ with result_column:
       st.write(greatest)
 
 def find_greatest():
-  clicked = True
-  greagest = max(num_1, num_2, num_3)
+  global clicked = True
+  global greagest = max(num_1, num_2, num_3)
