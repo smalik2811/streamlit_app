@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.header("Triumphant Trio: :blue[Unveiling the Mighty Number!]")
-st.subheader("Discover the Ascendancy of Numerical Dominance :sunglasses:", divider='rainbow')
+# st.subheader("Discover the Ascendancy of Numerical Dominance :sunglasses:", divider='rainbow')
 
 st.write("### Unleash the Magic of Three! Enter Your Sacred Numbers:")
 
@@ -23,3 +23,4 @@ with result_column:
         st.write("#### Behold the Champion: The Supreme Number is Revealed!")
         with st.container(border = True):
             st.write("# {}".format(greatest_num))
+st.body("Why was the number six afraid of seven? Because seven, eight (ate), nine! Remember, numbers have appetites too!")
