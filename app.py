@@ -17,7 +17,8 @@ with main_column:
 def find_greatest(num_1, num_2, num_3):
     return max(num_1, num_2, num_3)
 
-if st.button("Ascend to Greatness!", type="primary"):
-    greatest_num = find_greatest(num_1, num_2, num_3)
-    st.write("#### Behold the Champion: The Supreme Number is Revealed!")
-    st.write(greatest_num)
+with result_column:
+    if st.button("Ascend to Greatness!", type="primary"):
+        greatest_num = find_greatest(num_1, num_2, num_3)
+        st.write("#### Behold the Champion: The Supreme Number is Revealed!")
+        st.write(greatest_num)
