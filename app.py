@@ -20,5 +20,4 @@ def find_greatest(num_1, num_2, num_3):
 if st.button("Ascend to Greatness!", type="primary"):
     greatest_num = find_greatest(num_1, num_2, num_3)
     st.write("#### Behold the Champion: The Supreme Number is Revealed!")
-    with st.container(border=True):
-        st.write(greatest_num)
+    st.write(greatest_num)
