@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.header("Triumphant Trio: :blue[Unveiling the Mighty Number!]")
-st.subheader("Discover the Ascendancy of Numerical Dominance :sunglasses:", divider = 'rainbow)
+st.subheader("Discover the Ascendancy of Numerical Dominance :sunglasses:", divider = 'rainbow')
 
 main_column, img_column = st.columns(2, gap = "medium")
 
