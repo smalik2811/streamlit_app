@@ -22,4 +22,5 @@ with result_column:
       st.write(find_greatest())
 
 def find_greatest():
+  clicked = True
   return max(num_1, num_2, num_3)
