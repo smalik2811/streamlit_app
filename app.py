@@ -7,6 +7,7 @@ st.write("### Unleash the Magic of Three! Enter Your Sacred Numbers:")
 
 main_column, result_column = st.columns(2, gap = "medium")
 clicked = False
+greatest = None
 
 with main_column:
   with st.container(border = True):
@@ -19,8 +20,8 @@ with result_column:
   if(clicked):
     st.write("#### Behold the Champion: The Supreme Number is Revealed!")
     with st.container(border = True):
-      st.write(find_greatest())
+      st.write(greatest)
 
 def find_greatest():
   clicked = True
-  return max(num_1, num_2, num_3)
+  greagest = max(num_1, num_2, num_3)
