@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("Triumphant Trio: :blue[Unveiling the Mighty Number!]")
+st.header("Triumphant Trio: :blue[Unveiling the Mighty Number!]", divider='rainbow')
 # st.subheader("Discover the Ascendancy of Numerical Dominance :sunglasses:", divider='rainbow')
 
 st.write("### Unleash the Magic of Three! Enter Your Sacred Numbers:")
