@@ -5,7 +5,7 @@ st.subheader("Discover the Ascendancy of Numerical Dominance :sunglasses:", divi
 
 main_column, img_column = st.columns(2, gap = "medium")
 
-st.text("Unleash the Magic of Three! Enter Your Sacred Numbers:")
+st.write("###Unleash the Magic of Three! Enter Your Sacred Numbers:")
 
 with main_column:
   num_1 = st.number_input("Enter the Numero Uno of your trio", min_value = 0, step = 1)
