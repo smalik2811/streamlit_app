@@ -23,4 +23,4 @@ with result_column:
         st.write("#### Behold the Champion: The Supreme Number is Revealed!")
         with st.container(border = True):
             st.write("# {}".format(greatest_num))
-st.body("Why was the number six afraid of seven? Because seven, eight (ate), nine! Remember, numbers have appetites too!")
+st.write("__Why was the number six afraid of seven? Because seven, eight (ate), nine! Remember, numbers have appetites too!__")
