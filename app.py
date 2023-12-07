@@ -14,4 +14,4 @@ with main_column:
 
 with img_column:
   st.write("result here")
-  st.image("https://gramener.com/comicgen/v1/comic?name=aavatar&gender=female&character=bindi&facestyle=sketchy&emotion=lookingleft&attire=saree&pose=angry&face=%23f9e6c8&shirt=%23bcd1ec&pant=%233a4e5c&box=&boxcolor=%23000000&boxgap=&mirror=")
+  st.image("https://gramener.com/comicgen/v1/comic?name=aavatar&gender=female&character=bindi&facestyle=sketchy&emotion=lookingleft&attire=saree&pose=angry&face=%23f9e6c8&shirt=%23bcd1ec&pant=%233a4e5c&box=&boxcolor=%23000000&boxgap=100&mirror=")
